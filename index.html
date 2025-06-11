@@ -5,62 +5,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <!-- btn -> criar botao (fundo trasparente) -->
-    <!-- 
-        btn btn-danger -> botao vermelho
-        btn btn-info -> botao azul claro
-        btn btn-primary -> botao azul escuro
-        btn btn-warning -> botao amarelo
-        btn btn-success -> botao verde
-    -->
-    <!-- <a href="#" class="btn btn-primary">Linkedin</a> -->
-    <section class="container">
+    <section class="container span-style">
         <div class="titulo-nome text-center mt-3">
             <h1>Victor Chinaglia</h1>
             <h5 class="objetivo">Desenvolvedor FullStack</h5>
             <hr>
         </div>
-        
-        <!-- Conteudo principal -->
-        <main class="row">
 
+        <section class="row dados">
             <div class="dados-pessoais col">
-                <label class="telefone">
-                    <strong>Telefone: </strong>(19) 98354-1300
-                </label>
-                <label class="cnh">
-                    <strong>CNH: </strong>Não tenho
-                </label>
-                <label class="estado-civil">
-                    <strong>Estado Civil: </strong> Solteiro
-                </label>
+                <label class="telefone"><strong>Telefone: </strong>(19) 98354-1300</label>
+                <label class="cnh"><strong>CNH: </strong>Não tenho</label>
+                <label class="estado-civil"><strong>Estado Civil: </strong> Solteiro</label>
             </div>
-            
             <div class="dados-contato col">
-                <label class="email">
-                    <strong>Email: </strong>chinagliavictor47@gmail.com
-                </label>
-                <label>
-                    <strong>Github: </strong>
-                    <a href="https://chinaglia77.github.io/" target="_blank">chinaglia77.github.io</a>
-                </label>
-                <label >
-                    <strong>Linkedin: </strong>
-                    <a href="#">Linkedin</a>
-                </label>
+                <div class="p-2">
+                    <label class="email"><strong>Email: </strong>chinagliavictor47@gmail.com</label>
+                    <label><strong>Github: </strong>
+                        <a href="https://chinaglia77.github.io/" target="_blank">chinaglia77.github.io</a>
+                    </label>
+                    <label><strong>Linkedin: </strong>
+                        <a href="#">Linkedin</a>
+                    </label>
+                </div>
             </div>
-        </main>
-            
+        </section>
+
+        <section class="row formacao mt-3">
+            <h3>Formação</h3>
+
+            <main class="col-6 mt-2">
+                <div class="cartao">
+                    <label><span>Escola: </span>Senac Americana - Ensino Técnico</label>
+                    <label><span>Curso: </span>Técnico em Informatica</label>
+                    <label><span>Data: </span>10/2024 - 05/2026</label>
+                </div>
+            </main>
+
+            <main class="col-6 mt-2">
+                <div class="cartao">
+                    <label><span>Escola: </span>E. E. Comendador Emilio Romi - Ensino Médio</label>
+                    <label>Data de conclusão: 12/2021</label>
+                </div>
+            </main>
+
+            <main class="col-6 mt-2">
+                <div class="cartao">
+                    <label><span>Faculdade: </span>Unicesumar - Ensino Superior</label>
+                    <label><span>Curso: </span>Analise e Desenvovimento de Sistemas</label>
+                    <label><span>Data: </span>02/2022 - 12/2024</label>
+                </div>
+            </main>
+        </section>
+
+        <section class="row experiencia mt-3">
+            <h3 class="mb-3">Experiencia</h3>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-experiencia">
+                    <label><span>Nome da empresa: </span>ADD. Burguer</label>
+                    <label><span>Cargo: </span>Embalar lanches</label>
+                    <label><span>Periodo: </span>3 Meses</label>
+                    <label><span>Funções desenvolvidas: </span>none</label>
+                </div>
+            </main>
+        </section>
+
+        <section class="row cursos mt-3">
+            <h3>Cursos</h3>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-cursos">
+                    <label><span>Curso: </span>Fundamentos de Python</label>
+                    <label><span>Descrição: </span>Curso introdutório que aborda os principais conceitos da linguagem Python, incluindo variáveis, estruturas de controle, funções e manipulação de dados.</label>
+                    <label><span>Instituição: </span>Senac Americana</label>
+                    <label><span>Data: </span>02/2024</label>
+                </div>
+            </main>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-cursos">
+                    <label><span>Curso: </span>Power BI</label>
+                    <label><span>Descrição: </span>Curso introdutório que ensina a criar relatórios interativos e dashboards com Power BI, incluindo conexão com dados e visualizações.</label>
+                    <label><span>Instituição: </span>Senai Americana</label>
+                    <label><span>Data: </span>04/2023</label>
+                </div>
+            </main>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-cursos">
+                    <label><span>Curso: </span>Informática</label>
+                    <label><span>Descrição: </span>Curso básico de informática que aborda o uso de sistemas operacionais, editores de texto, planilhas, apresentações e navegação na internet.</label>
+                    <label><span>Instituição: </span>Microcamp Informática</label>
+                    <label><span>Data: </span>08/2022</label>
+                </div>
+            </main>
+        </section>
+
+        <section class="row projetos mt-3">
+            <h3>Projetos Pessoais</h3>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-projetos">
+                    <label><span>Título: </span>YouTube Downloader (MP4 e MP3)</label>
+                    <label><span>Descrição: </span>Script em Python que permite baixar vídeos em MP4 ou extrair o áudio em MP3 a partir de uma URL do YouTube.</label>
+                    <label><span>Tecnologias: </span>Python, pytube, OS</label>
+                    <label><span>Data: </span>06/2025</label>
+                    <label><span>Link: </span>
+                        <a href="https://github.com/chinaglia77/CentralDownloadMedia/blob/main/mp3.py" target="_blank">Downloader Python</a>
+                    </label>
+                </div>
+            </main>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-projetos">
+                    <label><span>Título: </span>Calculadora de IMC – Java Swing</label>
+                    <label><span>Descrição: </span>Calculadora de IMC com interface gráfica usando Java Swing. Permite inserir altura e peso, calcular o IMC e exibir a classificação conforme a tabela da OMS.</label>
+                    <label><span>Funcionalidades: </span>Interface intuitiva, cálculo automático do IMC, classificação baseada na OMS, validação de entrada, acesso à tabela de referência IMC.</label>
+                    <label><span>Tecnologias: </span>Java 8+, Swing, AWT</label>
+                    <label><span>Link: </span>
+                        <a href="https://github.com/chinaglia77/CalculadoraIMC" target="_blank">Repositório IMC</a>
+                    </label>
+                </div>
+            </main>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-projetos">
+                    <label><span>Título: </span>Gerador de Senhas – Java Swing</label>
+                    <label><span>Descrição: </span>Gerador de senhas seguras e personalizadas com interface gráfica em Java Swing, facilitando a criação de senhas fortes.</label>
+                    <label><span>Funcionalidades: </span>Definir comprimento da senha, escolher letras maiúsculas/minúsculas, números e símbolos, copiar senha com um clique.</label>
+                    <label><span>Estrutura do projeto: </span>src/ (códigos fonte), lib/ (dependências), bin/ (arquivos compilados)</label>
+                    <label><span>Tecnologias: </span>Java, Swing</label>
+                    <label><span>Link: </span>
+                        <a href="https://github.com/chinaglia77/GeradorSenha" target="_blank">Repositório Gerador de Senhas</a>
+                    </label>
+                </div>
+            </main>
+
+            <main class="col-6 mt-2">
+                <div class="cartao-projetos">
+                    <label><span>Título: </span>Sistema de Cadastro de Produtos – Java Swing</label>
+                    <label><span>Descrição: </span>Sistema desktop com padrão DAO/DTO para cadastrar, listar, pesquisar, alterar e excluir produtos em interface gráfica amigável.</label>
+                    <label><span>Funcionalidades: </span>Cadastro, pesquisa por ID, listagem, alteração, exclusão e limpeza de campos.</label>
+                    <label><span>Tecnologias: </span>Java SE, Swing, JDBC, DAO/DTO</label>
+                    <label><span>Link: </span>
+                        <a href="https://github.com/chinaglia77/CadastroProdutos" target="_blank">Repositório Cadastro de Produtos</a>
+                    </label>
+                </div>
+            </main>
+
+            <main class="col mt-2">
+                <div class="cartao-projetos">
+                    <label><span>PROJETO INTEGRADOR - SENAC AMERICANA </span>Feira de HARDWARE</label>
+                    <label><span>Descrição: </span>Projeto integrador realizado no SENAC, apresentado em uma feira de hardware. O objetivo foi ensinar aos participantes o funcionamento de um computador, abordando desmontagem, montagem, limpeza e identificação de componentes.</label>
+                    <label><span>Funcionalidades: </span>Apresentação prática com desmontagem e montagem de PCs, explicações teóricas, limpeza de hardware e dinâmica interativa de adivinhação das peças.</label>
+                    <label><span>Tecnologias: </span>Hardware de computadores, montagem e manutenção, dinâmica educacional</label>
+                </div>
+            </main>
+        </section>
     </section>
-
-
 </body>
 
 </html>

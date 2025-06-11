@@ -1,3 +1,19 @@
+*{
+}
+
+body{
+}
+
+.container{
+    border-radius: 7px;
+    background-color: white;
+}
+
+.span-style span{
+    font-weight: bold;
+    color: black;
+}
+
 .titulo-nome > h1{
     font-weight: 400;
     font-size: 3rem;
@@ -22,4 +38,105 @@
 .dados-contato strong,
 .dados-pessoais strong{
     text-transform: capitalize;
+}
+
+.dados-contato>div{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px
+    rgba(37, 51, 62, 0.522);
+}
+
+
+/* FORMAÇÃO */
+.formacao>h3,
+.experiencia>h3,
+.cursos>h3,
+.projetos>h3 {
+    border-bottom: 1px solid #cbd0d4;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 15px; /* ajustável */
+}
+
+
+.formacao .cartao {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 100px;
+    padding: 10px;
+
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+    background-color: #e7e7e7;
+
+}
+
+.formacao .cartao:hover {
+    scale: 1.02;
+}
+
+/* EXPERIÊNCIA */
+.experiencia .cartao-experiencia {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 120px;
+    padding: 10px;
+
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+    background-color: #e7e7e7;
+
+}
+
+.experiencia .cartao-experiencia:hover {
+    scale: 1.02;
+}
+
+/* CURSOS */
+.cursos .cartao-cursos {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 140px;
+    padding: 10px;
+
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+    background-color: #e7e7e7;
+
+}
+
+.cursos .cartao-cursos:hover {
+    scale: 1.02;
+}
+
+/* PROJETOS */
+.projetos .cartao-projetos {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 400px;
+    padding: 10px;
+
+    box-shadow: 3px 3px 10px rgba(37, 51, 62, 0.522);
+    transition: ease-out 0.2s;
+    background-color: #e7e7e7;
+
+}
+
+.projetos .cartao-projetos:hover {
+    scale: 1.02;
 }
